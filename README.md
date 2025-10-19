@@ -37,13 +37,12 @@ CREATE TABLE users (
 
 Configure o application.properties para conectar ao PostgreSQL:
 
-properties
-Copiar código
 spring.datasource.url=jdbc:postgresql://localhost:5432/userdb
 spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
+
 Execute a aplicação Spring Boot.
 
 Endpoints disponíveis
