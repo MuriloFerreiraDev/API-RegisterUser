@@ -1,6 +1,7 @@
 # User Management API - Spring Boot
 
 Este é um projeto de exemplo em Spring Boot demonstrando o padrão MVC (Model-View-Controller) com uma API REST simples para gerenciamento de usuários.
+
 ---
 ## Tecnologias utilizadas
 - Java 21
