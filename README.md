@@ -1,7 +1,7 @@
 # User Management API - Spring Boot
 
 Este é um projeto de exemplo em Spring Boot demonstrando o padrão MVC (Model-View-Controller) com uma API REST simples para gerenciamento de usuários.
-
+---
 ## Tecnologias utilizadas
 - Java 21
 - Spring Boot 3.5.6
@@ -10,7 +10,7 @@ Este é um projeto de exemplo em Spring Boot demonstrando o padrão MVC (Model-V
 - Spring Web
 - Spring Data JPA
 - PostgreSQL
-
+---
 ## Estrutura do projeto
 - **Controller:** Recebe requisições HTTP e chama os serviços correspondentes.  
   - `UserController.java`
@@ -22,7 +22,7 @@ Este é um projeto de exemplo em Spring Boot demonstrando o padrão MVC (Model-V
   - `UserRepository.java`
 - **DTO:** Transfere dados de forma segura (sem expor a senha).  
   - `UserNameDTO.java`
-
+---
 ## Configuração do PostgreSQL
 1. Crie um banco de dados chamado `userResgister`.  
 ```sql
